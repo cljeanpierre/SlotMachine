@@ -1,7 +1,14 @@
+#must generate slot machine values randomly
+import random
+
 #creates global constant
 MAX_LINES = 3
 MAX_BET = 100
 MIN_BET = 1
+
+#specifies rows and columns in slot machine
+ROWS = 3
+COLS = 3
 
 # Gets the deposit from the user
 def deposit():
