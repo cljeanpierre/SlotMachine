@@ -1,5 +1,7 @@
 #creates global constant
 MAX_LINES = 3
+MAX_BET = 100
+MIN_BET = 1
 
 # Gets the deposit from the user
 def deposit():
