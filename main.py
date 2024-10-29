@@ -6,9 +6,17 @@ MAX_LINES = 3
 MAX_BET = 100
 MIN_BET = 1
 
-#specifies rows and columns in slot machine
+# specifies rows and columns in slot machine
 ROWS = 3
 COLS = 3
+
+# dictionary specifies how many symbols are in each reel or col. There will be the same number of symbols in each reel.
+symbol_count = {
+    "A": 2,
+    "B": 4,
+    "C": 6,
+    "D": 8
+}
 
 # Gets the deposit from the user
 def deposit():
