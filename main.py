@@ -18,6 +18,10 @@ symbol_count = {
     "D": 8
 }
 
+# generate outcome of slot machine using rows, columns, and symbols
+def get_slot_machine_spin(rows, cols, symbols):
+    all_symbols = []
+
 # Gets the deposit from the user
 def deposit():
 # will continually ask user for an amount until it is deemed valid    
