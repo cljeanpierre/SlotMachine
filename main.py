@@ -21,6 +21,10 @@ symbol_count = {
 # generate outcome of slot machine using rows, columns, and symbols
 def get_slot_machine_spin(rows, cols, symbols):
     all_symbols = []
+    # key value pairs, symbol is key A and value is 2, for example
+    for symbol, symbol_count in symbols.items():
+        for _ in range(symbol_count):
+            all_symbols.append(symbol)
 
 # Gets the deposit from the user
 def deposit():
